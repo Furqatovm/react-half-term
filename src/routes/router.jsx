@@ -1,0 +1,23 @@
+import React from "react";
+import { createBrowserRouter } from "react-router-dom";
+import Layout from "../layout/layout";
+import Home from "./home/home";
+
+export const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Layout />,
+    children:[
+      {
+        index: true,
+        element:<Home />,
+      },
+    ]
+  },
+  {
+    path:"*",
+    element:<h1>Not found</h1>
+  }
+]);
+
+

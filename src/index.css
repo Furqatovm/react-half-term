@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+.textGray{
+  color: #C2CDDD;
+}
+.textBlue{
+  color: #5D78FF;
+}
+.navText{
+  color: #5D78FF;
+}
+
+.darkGray{
+  color: #6682A9;
+}
+
+.darkBlue{
+  color: #011C47;
+}

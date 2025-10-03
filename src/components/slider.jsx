@@ -13,7 +13,7 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
 const Slider = () => {
   return (
-    <div className="w-full h-64 mx-auto my-[1rem]">
+    <div className="w-full h-[70vh] mx-auto my-[1rem]">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={30}
@@ -25,7 +25,7 @@ const Slider = () => {
             disableOnInteraction: false, 
           }}
         loop={true}
-        className="relative rounded-2xl shadow-lg"
+        className="rounded-2xl shadow-lg"
       >
         <SwiperSlide>
           <img

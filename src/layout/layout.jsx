@@ -11,6 +11,7 @@ const Layout = () => {
     <main className='max-w-[1350px] mx-auto'>
       <Outlet />
     </main>
+    <Footer />
     </div>
   )
 }

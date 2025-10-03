@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
-  <header>
+  <header >
      <nav className='max-w-[1350px] mx-auto py-[12px] flex items-center justify-between'>
     <div className='w-[60%] flex items-center justify-between max-md:hidden'>
         <Link to={"/"} className='flex gap-[7px]'>
@@ -46,7 +46,7 @@ const Header = () => {
     </div>
    </nav>
 
-   <div className="wrapper-search border border-[#C2CDDD]">
+   <div className="wrapper-search border border-[#C2CDDD] max-md:hidden">
       <div className='max-w-[1350px] mx-auto py-[1.1rem] px-1 flex justify-between items-center'>
         <Link className='cursor-pointer' to={"/"}>
         <svg width="139" height="27" viewBox="0 0 139 27" fill="none" xmlns="http://www.w3.org/2000/svg">

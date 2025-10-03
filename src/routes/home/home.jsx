@@ -10,7 +10,7 @@ const Home = () => {
     <div className='max-w-[1350px] mx-auto'>
       <Slider />
 
-      <div className='grid grid-cols-5 gap-4'>
+      <div className='grid grid-cols-5 gap-4 z-10 max-md:grid-cols-2 max-sm:grid-cols-1'>
         {Data.map((val) =>{
           return <Card key={val.id} product ={val} />
         })}
